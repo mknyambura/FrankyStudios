@@ -15,10 +15,11 @@ import musician3 from '../../images/artist3.png'
 import influencer1 from '../../images/influencer1.png'
 import influencer2 from '../../images/influencer2.png'
 import influencer3 from '../../images/influencer3.png'
+import { Link } from 'react-router-dom'
 
 
 
-function Booking() {
+function ArtistBooking() {
   return (
     <div className='text-black '>
         <div className='bg-2 h-[85vh]'>  
@@ -28,9 +29,15 @@ function Booking() {
               <h1 className='text-7xl font-bold mt-8'>Booking Agency Page</h1>
               <p className='text-2xl text-slate-400 mt-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit!</p>
               <div className='flex flex-row gap-12 items-center m-4 text-white'>
-                <button className='bg-[#F97A33] rounded-xl px-14 py-4 text-xl font-semibold'><a href="#musicians" className='no-underline'>Musicians</a></button>
-                <button className='bg-[#9b05c9] rounded-xl px-14 py-4 text-xl font-semibold'><a href="#artists" className='no-underline'>Artist</a></button>
-                <button className='bg-[#262227] rounded-xl px-14 py-4 text-xl font-semibold'><a href="#influencers" className='no-underline'>Influencer</a></button>
+                <Link to='/musician-booking-info'>
+                    <button className='bg-[#F97A33] rounded-xl px-14 py-4 text-xl font-semibold'><a href="#musicians" className='no-underline'>Musicians</a></button>
+                </Link>
+                <Link to='/artist-booking-info'>
+                    <button className='bg-[#9b05c9] rounded-xl px-14 py-4 text-xl font-semibold'><a href="#artists" className='no-underline'>Artist</a></button>
+                </Link>
+                <Link to='/influencer-booking-info'>
+                    <button className='bg-[#262227] rounded-xl px-14 py-4 text-xl font-semibold'><a href="#influencers" className='no-underline'>Influencer</a></button>
+                </Link>
               </div>
             </div>
           </div>
@@ -129,4 +136,4 @@ function Booking() {
   )
 }
 
-export default Booking
+export default ArtistBooking

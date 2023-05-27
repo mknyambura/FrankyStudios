@@ -11,7 +11,10 @@ import LandingPage from './components/LandingPage/LandingPage';
 import { Suspense } from 'react';
 import FrankyStudio from './components/FrankyStudio/FrankyStudio';
 import ArtistPage from './components/ArtistPage/ArtistPage';
-import Booking from './components/Booking/Booking';
+import ArtistBooking from './components/Booking/ArtistBooking';
+import MusiciansBooking from './components/Booking/MusiciansBooking';
+import InfluencerBooking from './components/Booking/InfluencerBooking';
+import AboutUs from './components/AboutUs/AboutUs';
 
 
 
@@ -25,7 +28,11 @@ function App() {
           <Route path='/' element={<LandingPage/>}/>
           <Route path='/frankys-studio' element={<FrankyStudio/>}/>
           <Route path='/artists-booking' element={<ArtistPage/>}/>
-          <Route path='/booking-agency' element={<Booking/>}/>
+          <Route path='/booking-agency' element={<ArtistBooking/>}/>
+          <Route path='/artist-booking-info' element={<ArtistBooking/>}/>
+          <Route path='/musician-booking-info' element={<MusiciansBooking/>}/>
+          <Route path='/influencer-booking-info' element={<InfluencerBooking/>}/>
+          <Route path='/about-us' element={<AboutUs/>}/>
         </Routes>
       </div>
     </Suspense>

@@ -9,7 +9,7 @@ function Footer() {
 
       <div className='text-black flex flex-row justify-between items-center m-16'>
         <div className='flex flex-col gap-2 w-[30%] items-center justify-center'>
-          <a href='#home' className='font-semibold text-3xl mb-8'><span className='text-[#F97A33]'>Franky </span>Studio.</a>
+          <Link to='/' className='font-semibold text-3xl mb-8'><span className='text-[#F97A33]'>Franky </span>Studio.</Link>
           <p className='text-slate-500'>We would love to hear from you!</p>
           <p className='font-bold text-xl'>support@email.com</p>
           <div className='flex flex-row gap-8'>

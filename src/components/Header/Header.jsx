@@ -24,7 +24,7 @@ function Header() {
         <Link to='/' className='text-[#F97A33]'>Home</Link>
         <Link to='/frankys-studio' id='home' className='hover:text-[#F97A33]'>Franky's Studio</Link>
         <Link to='/artists' className='hover:text-[#F97A33]'>Artist Booking</Link>
-        <h1 className='hover:text-[#F97A33]'>About Us</h1>
+        <Link to='about-us' className='hover:text-[#F97A33]'>About Us</Link>
       </div>
       <div className='flex flex-row gap-4 m-16 text-md'>        
         <Dropdown >
