@@ -22,7 +22,7 @@ import {GiNotebook} from 'react-icons/gi'
 function Body() {
   return (
     <div>
-        <div className='flex flex-col items-center gap-8 m-16'>
+        <div className='flex flex-col items-center gap-8 ml-16 mr-16 mb-16'>
         <h1 className='text-black text-5xl font-bold'>Trusted by 20,000+ customers across Europe</h1>
         <p className='text-[#F97A33] text-xl'>4.9/5 Rating based on 20K+ reviews</p>
         <div className='flex flex-row gap-8 items-center'>

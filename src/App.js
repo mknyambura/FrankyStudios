@@ -11,6 +11,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 import { Suspense } from 'react';
 import FrankyStudio from './components/FrankyStudio/FrankyStudio';
 import ArtistPage from './components/ArtistPage/ArtistPage';
+import Booking from './components/Booking/Booking';
 
 
 
@@ -23,7 +24,8 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage/>}/>
           <Route path='/frankys-studio' element={<FrankyStudio/>}/>
-          <Route path='/artists' element={<ArtistPage/>}/>
+          <Route path='/artists-booking' element={<ArtistPage/>}/>
+          <Route path='/booking-agency' element={<Booking/>}/>
         </Routes>
       </div>
     </Suspense>
