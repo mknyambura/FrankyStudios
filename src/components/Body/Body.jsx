@@ -25,7 +25,7 @@ function Body() {
         <div className='flex flex-col items-center gap-8 ml-16 mr-16 mb-16'>
         <h1 className='text-black text-5xl font-bold'>Trusted by 20,000+ customers across Europe</h1>
         <p className='text-[#F97A33] text-xl'>4.9/5 Rating based on 20K+ reviews</p>
-        <div className='flex flex-row gap-8 items-center'>
+        <div className='flex flex-row flex-wrap gap-8 items-center'>
           <div className='flex flex-row items-center'>
             <img src={asana} alt="" width={80}/>
             <p className='text-slate-700 text-3xl font-semibold'>asana</p>
@@ -49,7 +49,7 @@ function Body() {
         </div>
       </div>
 
-      <div className='text-black flex flex-row items-center gap-8 m-16 justify-between'>
+      <div className='text-black flex sm:flex-col lg:flex-row items-center gap-8 m-16 justify-between'>
         <div className='flex flex-col gap-8 items-center'>
           <h1 className='text-[#f94a33]'>WHAT IS FRANKYS STUDIOS</h1>
           <p className='text-5xl font-bold'>We start with discovery call to understand</p>
@@ -74,7 +74,7 @@ function Body() {
           <h1 className='text-[#f97a33]'>WHAT WE DO</h1>
           <p className='font-bold text-5xl'>We're a Digital Marketing Pro</p>
         </div>
-        <div className='flex flex-row items-center gap-8 justify-evenly m-16'>
+        <div className='flex flex-row flex-wrap items-center gap-8 justify-evenly m-16'>
           <div className='flex flex-col gap-8 items-center shadow-xl hover:shadow-2xl hover:shadow-slate-500 rounded-lg bg-white'>
             <button disabled="disabled" className='bg-blue-700 px-2 py-2 rounded-md mt-4'><BsFillVolumeUpFill className='text-white text-4xl'/></button>
             <h1 className='font-bold text-2xl ml-4 mr-4 mb-4'>Social Media</h1>
@@ -106,8 +106,10 @@ function Body() {
           <button className='bg-[#f97a33] rounded-md flex flex-row gap-4 items-center px-6 py-2 text-white'>
             <BsFillSendCheckFill/>
             Get in Touch
-          </button>        </div>
-        <div className='flex flex-row gap-8 '>
+          </button>        
+        </div>
+        
+        <div className='flex flex-row flex-wrap gap-8 '>
           <div className='flex flex-col items-center shadow-xl rounded-lg'>
             <img src={jody} alt="" />
             <h1 className='font-bold text-2xl'>Dr.Jody Levos</h1>
@@ -139,7 +141,7 @@ function Body() {
           <h1 className='text-[#F97A33]'>OUR BLOG</h1>
           <h1 className='font-bold text-3xl'>Explore Our Blog</h1>
         </div>
-        <div className='flex flex-row items-center gap-8 ml-16 mr-16 mb-8 mt-8 '>
+        <div className='flex flex-row flex-wrap items-center gap-8 ml-16 mr-16 mb-8 mt-8 '>
           <div className='flex flex-col gap-6 justify-between shadow-xl hover:shadow-2xl hover:shadow-slate-500 rounded-lg bg-white'>
             <img src={blog1} alt="" />
             <h1 className='font-bold text-2xl ml-4 mr-4 mb-4'>Merge Instagram Accounts</h1>
@@ -171,7 +173,7 @@ function Body() {
             </p>
           </div>
         </div>
-        <button className='bg-[#f97a33] w-[20%] rounded-md flex flex-row gap-4 items-center justify-center px-6 py-2 text-white mb-16'>
+        <button className='bg-[#f97a33] lg:w-[20%] rounded-md flex flex-row gap-4 items-center justify-center px-6 py-2 text-white mb-16'>
             <BsFillSendCheckFill/>
             Read More Posts
           </button>

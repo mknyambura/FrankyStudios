@@ -16,7 +16,7 @@ function LandingPage() {
         <Header className='m-16'/>
         <div className='flex flex-col'>
           <div className='flex flex-col items-center gap-8'>
-            <h1 className='text-7xl font-bold mt-20'>Build Your Brand's Voice</h1>
+            <h1 className='sm:text-6xl md:text-6xl lg:text-7xl font-bold mt-20'>Build Your Brand's Voice</h1>
             <p className='text-2xl text-slate-300 mt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit!</p>
             <div className='flex flex-row gap-24 items-center m-8'>
               <Link to='/frankys-studio'>
