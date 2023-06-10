@@ -26,7 +26,7 @@ function ArtistPage() {
           <Header className='m-16'/>
           <div className='flex flex-col'>
             <div className='flex flex-col items-center gap-8'>
-              <h1 className='text-7xl font-bold mt-8'>Artists Page</h1>
+              <h1 className='sm:text-6xl lg:text-7xl font-bold lg:mt-8'>Artists Page</h1>
               <p className='text-2xl text-slate-400 mt-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit!</p>
               <div className='flex flex-row gap-12 items-center m-8 text-white'>
                 <button className='bg-[#F97A33] rounded-xl px-14 py-4 text-xl font-semibold'><a href="#musicians" className='no-underline'>Musicians</a></button>
@@ -42,13 +42,13 @@ function ArtistPage() {
           <div className='flex flex-row justify-between m-8'>
             <h1 className='font-bold text-5xl' id='artists'>Artists</h1>
             <Link to='/booking-agency'>
-              <button className='bg-[#f97a33] rounded-md flex flex-row gap-4 items-center px-6 py-2 text-white'>
+              <button className='bg-[#7e695c] rounded-md flex flex-row gap-4 items-center px-6 py-2 text-white'>
                 <BsFillSendCheckFill/>
                 Book
               </button>        
             </Link>
           </div>
-          <div className='flex flex-row gap-8 '>
+          <div className='flex flex-row flex-wrap gap-8 '>
             <div className='m-12 bg-white flex flex-col items-center shadow-xl hover:shadow-2xl hover:shadow-slate-500 rounded-lg'>
               <img src={jody} alt="" />
               <h1 className='font-bold text-2xl'>Dr.Jody Levos</h1>
@@ -78,7 +78,7 @@ function ArtistPage() {
               </button>        
             </Link>
           </div>
-          <div className='flex flex-row gap-8 '>
+          <div className='flex flex-row flex-wrap gap-8 '>
             <div className='m-12 bg-white flex flex-col items-center shadow-xl hover:shadow-2xl hover:shadow-slate-500 rounded-lg'>
               <img src={musician1} alt="" />
               <h1 className='font-bold text-2xl'>Dr.Jody Levos</h1>
@@ -108,7 +108,7 @@ function ArtistPage() {
               </button>        
             </Link>
           </div>
-          <div className='flex flex-row gap-8 '>
+          <div className='flex flex-row flex-wrap  gap-8 '>
             <div className='m-12 bg-white flex flex-col items-center shadow-xl hover:shadow-2xl hover:shadow-slate-500 rounded-lg'>
               <img src={influencer1} alt="" />
               <h1 className='font-bold text-2xl'>Dr.Jody Levos</h1>
