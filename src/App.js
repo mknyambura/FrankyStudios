@@ -27,7 +27,7 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage/>}/>
           <Route path='/frankys-studio' element={<FrankyStudio/>}/>
-          <Route path='/artists-booking' element={<ArtistPage/>}/>
+          <Route path='/artists' element={<ArtistPage/>}/>
           <Route path='/booking-agency' element={<ArtistBooking/>}/>
           <Route path='/artist-booking-info' element={<ArtistBooking/>}/>
           <Route path='/musician-booking-info' element={<MusiciansBooking/>}/>
